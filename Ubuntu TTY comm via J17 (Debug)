@@ -1,0 +1,5 @@
+Installing NXP dev tools on Ubuntu
+
+The NXP i.MX8 ULP uses an FTDI chip set.  The dev platform has to have FTDI drivers installed.  Ubuntu has them installed.  To confirm the USB comm to the NXP via j17 debug port, use sudo moserail to verify
+
+Set to ttyUSB2 to see the boot sequence
